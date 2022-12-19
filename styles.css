@@ -1,2 +1,73 @@
-
 /* Your CSS Code here. */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 10px solid lime;
+    background: rgb(255, 203, 212);
+    /* height: 100vh; */
+    width: 90%;
+}
+.row-1,.row-2,.row-3{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    margin: 10px;
+}
+.row-1> .col-1{
+    flex-grow: 3;
+    height: 250px;
+    background-color: red;
+}
+.row-1> .col-2{
+    flex-grow: 9;
+    height: 250px;
+    background-color: yellow;
+}
+
+.row-2 > .col-1{
+    flex-grow: 2;
+    height: 250px;
+    background-color: bisque;
+}
+.row-2 > .col-2{
+    flex-grow: 4;
+    height: 250px;
+    background-color: rgb(154, 218, 118);
+}
+
+.row-2 > .col-3{
+    flex-grow: 2;
+    height: 250px;
+    background-color: bisque;
+}
+
+.row-2 > .col-4{
+    flex-grow: 4;
+    height: 250px;
+    background-color: rgb(141, 206, 111);
+}
+
+.row-3 > .col-1{
+    flex-grow: 2;
+    height: 250px;
+    background-color: rgb(196, 241, 255);
+}
+.row-3 > .col-2{
+    flex-grow: 4;
+    height: 250px;
+    background-color: rgb(228, 128, 62);
+}
+
+.row-3 > .col-3{
+    flex-grow: 4;
+    height: 250px;
+    background-color: rgb(255, 196, 245);
+}
+
+.row-3 > .col-4{
+    flex-grow: 2;
+    height: 250px;
+    background-color: rgb(224, 204, 18);
+}
